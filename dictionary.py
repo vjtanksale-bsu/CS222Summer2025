@@ -7,9 +7,13 @@ def main():
         "Eve" : 97
         }
     print(midterm["Alice"])
-    print(midterm.values())
-    for v in midterm.values():
+    #print(midterm.values())
+    #print(midterm.keys())
+    for k, v in midterm.items():
+        print(k)
         print(v)
+    #for v in midterm.values():
+        #print(v)
     print(len(midterm))
     exams = {
         "Alice" : [100, 75, 80],
