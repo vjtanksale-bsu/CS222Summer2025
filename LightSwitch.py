@@ -9,7 +9,6 @@ def main():
     l0 = LightSwitch()
     l1 = LightSwitch()
     l2 = LightSwitch()
-    #l1.switchIsOn = True
     l1.turnOn()
     l2.turnOn()
     l1.turnOff()
