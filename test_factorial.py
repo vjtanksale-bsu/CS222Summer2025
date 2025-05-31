@@ -1,4 +1,3 @@
-# test_math_ops.py
 import unittest
 from factorial import Factorial
 
